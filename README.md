@@ -43,7 +43,7 @@ var packpath = require('packpath');
 
 //the config dir of the app that called your module through require()
 var configDir = path.join(packpath.parent(), 'config'); 
-
+```
 
 
 License
