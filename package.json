@@ -1,0 +1,25 @@
+{
+    "name" : "packpath", 
+    "version" : "0.0.1",
+    "description" : "Find the path(s) package.json.",
+    "homepage" : [
+        "https://github.com/jprichardson/node-packpath"
+    ],
+    "repository" : {
+        "type" : "git", 
+        "url" : "https://github.com/jprichardson/node-packpath"
+    },
+    "keywords" : ["require", "package", "path", "resolve", "package.json"],
+    "author" : "JP Richardson <jprichardson@gmail.com>",
+    "licenses" : [ {
+        "type" : "MIT",
+        "url" : "http://github.com/jprichardson/node-packpath/raw/master/LICENSE"
+    }],
+     "devDepdencies":{
+        "mocha": "1.3.x"
+    },
+    "main" : "./lib/packpath",
+    "scripts": {
+        "test": "mocha test"
+    }
+}
